@@ -1,0 +1,8 @@
+#!/bin/sh
+# Description: Install custom Favorite Apps
+
+# cat > /usr/share/glib-2.0/schemas/90-vanilla-settings.gschema.override <<EOF
+# [org.gnome.shell]
+# favorite-apps = [ 'org.vanillaos.Installer.desktop', 'org.gnome.Epiphany.desktop', 'org.gnome.Photos.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Software.desktop', 'yelp.desktop', 'org.gnome.Console.desktop' ]
+# EOF
+glib-compile-schemas /usr/share/glib-2.0/schemas/

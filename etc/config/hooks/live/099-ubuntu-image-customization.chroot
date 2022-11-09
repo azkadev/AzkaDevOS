@@ -1,0 +1,27 @@
+#!/bin/bash -ex
+
+# Specific ubuntu-image chroot configuration goes here.
+if [ "$IMAGEFORMAT" == "none" ]; then
+    if [ "$SUBPROJECT" == "desktop-preinstalled" ]; then
+        mkdir -p /var/log/installer
+        touch /var/log/installer/debug
+        touch /var/log/syslog
+        chown syslog:adm /var/log/syslog
+
+        # Create the oem user account
+        /usr/sbin/useradd -d /home/oem -G adm,sudo -m -N -u 29999 oem
+
+        /usr/sbin/oem-config-prepare --quiet
+        touch "/var/lib/oem-config/run"
+
+        # Make the writable partition grow
+        echo "LABEL=writable    /     ext4    defaults,x-systemd.growfs    0 0" >>/etc/fstab
+
+        # Create a 1GB swapfile
+        dd if=/dev/zero of=/swapfile bs=1G count=1
+        chmod 0600 /swapfile
+        mkswap /swapfile
+
+        echo "/swapfile         none  swap    sw    0 0" >>/etc/fstab
+    fi
+fi

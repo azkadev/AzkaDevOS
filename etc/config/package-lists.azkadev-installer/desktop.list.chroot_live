@@ -1,0 +1,16 @@
+btrfs-progs
+casper
+expect
+cifs-utils
+xfsprogs
+jfsutils
+reiserfsprogs
+shim-signed
+shim
+lvm2
+dmraid
+wamerican
+fwupdate
+mokutil
+zram-config
+rsync

@@ -1,0 +1,27 @@
+prompt 0
+
+MENU HIDDEN
+MENU AUTOBOOT Booting AzkaDev OS live disk in # seconds
+timeout 50
+
+label live-@FLAVOUR@
+	menu label ^Try or install AzkaDev OS
+	menu default
+	linux /casper/vmlinuz
+	initrd /casper/initrd.lz
+	append @APPEND_LIVE@
+
+label live-failsafe
+	menu label Start AzkaDev OS (Safe Graphics)
+	set gfxpayload=keep
+	linux /casper/vmlinuz
+	initrd /casper/initrd.lz
+	append @APPEND_LIVE@ nomodeset
+
+label hd
+	menu label ^Boot from next volume
+	localboot 0x80
+
+label power
+	MENU LABEL ^Power Off
+	COM32 poweroff.c32

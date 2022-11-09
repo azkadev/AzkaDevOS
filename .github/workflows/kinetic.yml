@@ -1,0 +1,26 @@
+name: AzkaDevOS kinetic
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    container:
+      image: debian:latest
+      volumes:
+        - /proc:/proc
+      options: --privileged -it
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Install needed packages
+      run: apt update && apt install debootstrap -y
+
+    - name: Build ISO
+      run: ./build.sh etc/terraform.conf
+
+    - uses: actions/upload-artifact@v3
+      with:
+        name: AzkaDevOS 22.10
+        path: builds/

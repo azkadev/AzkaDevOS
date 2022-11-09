@@ -1,0 +1,10 @@
+283,284c283,288
+< 		# Removing depends
+< 		Remove_packages
+---
+> 		# Removing depends, some bootloader packages are marked as Protected/Important
+> 		# in Ubuntu, so temporarily add an apt flag to allow them to be removed
+> 		PRE_APT_OPTIONS="${APT_OPTIONS}"
+> 		APT_OPTIONS="${APT_OPTIONS} --allow-remove-essential"
+> 		Remove_packages
+> 		APT_OPTIONS="${PRE_APT_OPTIONS}"

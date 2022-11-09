@@ -1,0 +1,17 @@
+#!/bin/sh
+# Description: Setup AzkaDev utilities
+
+sudo almost enter rw
+
+mkdir -p /etc/skel/.config/autostart
+# if [ -f /usr/share/applications/io.github.azkadev-os.FirstSetup.desktop ]; then
+#     cp /usr/share/applications/io.github.azkadev-os.FirstSetup.desktop /etc/skel/.config/autostart/
+# else
+#     cp /usr/local/share/applications/io.github.azkadev-os.FirstSetup.desktop /etc/skel/.config/autostart/
+# fi
+
+# if [ -f /usr/share/applications/org.vanillaos.Installer.desktop ]; then
+#     cp /usr/share/applications/org.vanillaos.Installer.desktop /etc/skel/.config/autostart/
+# else
+#     cp /usr/local/share/applications/org.vanillaos.Installer.desktop /etc/skel/.config/autostart/
+# fi

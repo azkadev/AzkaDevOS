@@ -1,0 +1,41 @@
+#!/bin/sh
+# Description: Checkout seed branches and remove blacklisted packages
+
+echo "P: Begin executing remove-blacklisted-packages chroot hook..."
+
+#dist="$(lsb_release -c -s -u 2>&1)"||dist="$(lsb_release -c -s)"
+
+#apt-get install --no-install-recommends -f -q -y bzr
+
+#bzr export --quiet ubuntu-seeds "lp:~ubuntu-core-dev/ubuntu-seeds/ubuntu.$dist"
+
+#bzr export --quiet platform "lp:~ubuntu-core-dev/ubuntu-seeds/platform.$dist"
+
+#for package in $(cat 'platform/blacklist' 'ubuntu-seeds/blacklist' | grep -v '#'); do
+#    apt-get autoremove --purge -f -q -y "$package"
+#done
+
+#apt-get autoremove --purge -f -q -y bzr
+
+apt-get autoremove --purge -f -q -y \
+    ubuntu-desktop \
+    ubuntu-session \
+    apport \
+    snapd \
+    update-manager \
+    update-notifier
+
+rm -R ../ubuntu-seeds ../platform
+
+# fake desktop entries to prevent some applications from displaying
+mkdir -p /etc/skel/.local/share/applications
+touch /etc/skel/.local/share/applications/software-properties-drivers.desktop
+touch /etc/skel/.local/share/applications/gnome-session-properties.desktop
+touch /etc/skel/.local/share/applications/nm-connection-editor.desktop
+touch /etc/skel/.local/share/applications/gnome-language-selector.desktop
+touch /etc/skel/.local/share/applications/gnome-printers-panel.desktop
+
+cp /etc/rc.local /etc/rc.local.orig
+sed -i "s/exit 0/rm -fR \/var\/lib\/apt\/lists\/*/" /etc/rc.local
+echo "mv /etc/rc.local.orig /etc/rc.local" >> /etc/rc.local
+echo "exit 0" >> /etc/rc.local
