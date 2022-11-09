@@ -1,3 +1,3 @@
 ## AzkaDev OS
 
-> AzkaDevOS Linux Distro untuk developer
+> AzkaDevOS Linux Distro untuk developer based ubuntu
