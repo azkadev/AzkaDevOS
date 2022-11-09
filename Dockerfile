@@ -1,9 +1,9 @@
 FROM debian:latest
 
-WORKDIR /app/
+VOLUME [ "/proc:/proc", "/workspaces/AzkaDevOS:/working_dir" ]  
 
-ADD ./ /app/
+WORKDIR /working_dir
 
-RUN apt update && apt install debootstrap -y
+RUN echo "azka" > /workspaces/AzkaDevOS/baru.txt
 
-RUN ./build.sh etc/terraform.conf
+CMD [ "pwd" ]

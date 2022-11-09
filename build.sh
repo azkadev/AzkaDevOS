@@ -24,7 +24,7 @@ echo -e "
 "
 
 apt-get update
-apt-get install -y live-build patch gnupg2 binutils zstd
+apt-get install -y apt-utils debootstrap live-build patch gnupg2 binutils zstd
 dpkg -i debs/*.deb
 
 # TODO: This patch was submitted upstream at:
