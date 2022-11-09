@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="categories-symbolic.svg"
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   version="1.1"
+   id="svg7">
+  <sodipodi:namedview
+     inkscape:current-layer="svg7"
+     inkscape:window-maximized="1"
+     inkscape:window-y="40"
+     inkscape:window-x="0"
+     inkscape:cy="20.949049"
+     inkscape:cx="-37.077146"
+     inkscape:zoom="7.6875"
+     showgrid="false"
+     id="namedview13"
+     inkscape:window-height="898"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <metadata
+     id="metadata11">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3">
+    <style
+       id="current-color-scheme"
+       type="text/css">
+   .ColorScheme-Text { color:#444444; } .ColorScheme-Highlight { color:#4285f4; }
+  </style>
+  </defs>
+  <g
+     id="g31"
+     transform="matrix(0.56289285,0,0,0.56289285,22.496128,11.911151)">
+    <g
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.9363px;line-height:1.25;font-family:'URW Gothic L';-inkscape-font-specification:'URW Gothic L, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.673406"
+       id="text15"
+       aria-label="a">
+      <path
+         id="path60"
+         style="stroke-width:0.673406"
+         d="m -2.829346,-18.058304 h -1.9932825 v 2.612816 c -1.4814938,-2.047155 -3.2592864,-2.962987 -5.8182305,-2.962987 -4.417545,0 -7.75764,3.340095 -7.75764,7.75764 0,4.417545 3.367031,7.6768314 7.919258,7.6768314 2.5050711,0 4.0673737,-0.8080875 5.6566125,-2.9360513 v 2.58588 h 1.9932825 z m -7.75764,1.481494 c 3.2592862,0 5.7643575,2.532007 5.7643575,5.81823 0,3.3670313 -2.4781351,5.9529113 -5.6566125,5.9529113 -3.340095,0 -5.899039,-2.6128163 -5.899039,-5.9798473 0,-3.205414 2.58588,-5.791294 5.791294,-5.791294 z" />
+    </g>
+    <g
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'URW Gothic L';-inkscape-font-specification:'URW Gothic L, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       id="text19"
+       aria-label="b">
+      <path
+         id="path63"
+         d="m -39.327458,13.067797 h 2.96 V 9.3077967 c 1.84,2.7200003 4.96,4.2800003 8.56,4.2800003 6.6,0 11.56,-4.9200003 11.56,-11.4800003 0,-6.44 -5.04,-11.44 -11.52,-11.44 -3.68,0 -6.72,1.52 -8.6,4.28 V -16.492203 h -2.96 z m 11.48,-19.6800003 c 4.92,0 8.6,3.72 8.6,8.64 0,5.04 -3.68,8.8400003 -8.64,8.8400003 -2.44,0 -4.44,-0.84 -6.16,-2.6000003 -1.72,-1.76 -2.52,-3.76 -2.52,-6.24 0,-4.88 3.8,-8.64 8.72,-8.64 z" />
+    </g>
+    <g
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.3639px;line-height:1.25;font-family:'URW Gothic L';-inkscape-font-specification:'URW Gothic L, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.809097"
+       id="text23"
+       aria-label="c">
+      <path
+         id="path66"
+         style="stroke-width:0.809097"
+         d="m -0.51720982,12.758958 c -1.84474228,2.459656 -3.52766498,3.430573 -6.08441308,3.430573 -3.9483961,0 -7.0876941,-3.106934 -7.0876941,-7.0553301 0,-3.9807596 3.074571,-7.087694 7.0229663,-7.087694 2.6214759,0 4.7898571,1.2621921 6.14914088,3.5923929 H 2.1689938 c -1.42401155,-3.560029 -4.822221,-5.793138 -8.8029806,-5.793138 -5.3076792,0 -9.4826222,4.0778513 -9.4826222,9.2237113 0,5.2753159 4.207307,9.3208029 9.6444417,9.3208029 2.2007452,0 4.2396708,-0.679642 5.89022968,-2.006562 C 0.55079885,15.477525 1.2304407,14.6037 2.2013577,12.758958 Z" />
+    </g>
+  </g>
+</svg>
