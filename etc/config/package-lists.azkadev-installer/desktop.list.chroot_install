@@ -3,6 +3,7 @@ btrfs-progs
 curl
 bash-completion
 adwaita-icon-theme-full
+apt
 acpi
 acpi-call-dkms
 alsa-base
@@ -159,4 +160,4 @@ btrfs-progs
 wireplumber
 ibus-pinyin 
 ibus-cangjie
-
+ubuntu-desktop
