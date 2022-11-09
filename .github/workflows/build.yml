@@ -24,3 +24,12 @@ jobs:
       with:
         name: AzkaDevOS 22.10
         path: builds/
+    - name: Publish Release
+      uses: marvinpinto/action-automatic-releases@latest
+      with:
+        repo_token: "${{ github.token }}"
+        automatic_release_tag: "latest"
+        prerelease: false
+        title: "AzkaDevOs Ubuntu Linux 22.10"
+        files: |
+          builds/*
