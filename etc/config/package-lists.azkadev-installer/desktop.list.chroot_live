@@ -13,7 +13,6 @@ wamerican
 fwupdate
 mokutil
 zram-config
-rsync
-distinst
+rsync 
 ubuntu-drivers-common
 network-manager
