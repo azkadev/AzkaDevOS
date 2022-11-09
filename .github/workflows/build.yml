@@ -32,4 +32,4 @@ jobs:
         prerelease: false
         title: "AzkaDevOs Ubuntu Linux 22.10"
         files: |
-          builds/*
+          builds/*/*
