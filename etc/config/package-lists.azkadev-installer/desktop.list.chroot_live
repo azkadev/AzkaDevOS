@@ -16,3 +16,4 @@ zram-config
 rsync
 distinst
 ubuntu-drivers-common
+network-manager
