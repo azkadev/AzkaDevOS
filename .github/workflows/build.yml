@@ -1,10 +1,10 @@
-name: AzkaDevOS kinetic
+name: AzkaDevOS Build
 
 on: [workflow_dispatch]
 
 jobs:
   build:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     container:
       image: debian:latest
       volumes:
@@ -13,17 +13,14 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-
     - name: Install needed packages
       run: apt update && apt install debootstrap -y
-
     - name: Build ISO
       run: ./build.sh etc/terraform.conf
-
-    - uses: actions/upload-artifact@v3
-      with:
-        name: AzkaDevOS 22.10
-        path: builds/
+    # - uses: actions/upload-artifact@v3
+    #   with:
+    #     name: AzkaDevOS 22.10
+    #     path: builds/
     - name: Publish Release
       uses: marvinpinto/action-automatic-releases@latest
       with:
@@ -32,4 +29,4 @@ jobs:
         prerelease: false
         title: "AzkaDevOs Ubuntu Linux 22.10"
         files: |
-          builds/*/*
+          builds/*
