@@ -30,7 +30,7 @@ dpkg -i debs/*.deb
 # TODO: This patch was submitted upstream at:
 # https://salsa.debian.org/live-team/live-build/-/merge_requests/255
 # This can be removed when our Debian container has a version containing this fix
-# patch /usr/lib/live/build/binary_grub-efi < live-build-fix-shim-remove.patch
+patch /usr/lib/live/build/binary_grub-efi < live-build-fix-shim-remove.patch
 
 # TODO: Remove this once debootstrap has a script to build kinetic images in our container:
 # https://salsa.debian.org/installer-team/debootstrap/blob/master/debian/changelog
