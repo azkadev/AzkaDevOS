@@ -1,9 +1,9 @@
 #!/bin/sh
 # Description: Install the default GNOME wallpaper
 
-# cat > /usr/share/glib-2.0/schemas/90_ubuntuvanillagnome-wallpaper.gschema.override <<EOF
-# [org.gnome.desktop.background]
-# picture-uri='file:///usr/share/backgrounds/gnome/vanilla-default.webp'
-# picture-uri-dark='file:///usr/share/backgrounds/gnome/vanilla-dark.webp'
-# EOF
+cat > /usr/share/glib-2.0/schemas/90_ubuntuvanillagnome-wallpaper.gschema.override <<EOF
+[org.gnome.desktop.background]
+picture-uri='file:///usr/shares/backgrounds/default.jpg'
+picture-uri-dark='file:///usr/shares/backgrounds/default.jpg'
+EOF
 glib-compile-schemas /usr/share/glib-2.0/schemas/
