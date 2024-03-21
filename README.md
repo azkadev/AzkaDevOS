@@ -1,44 +1,29 @@
-## AzkaDev OS
+IyMgQXprYURldiBPUwoKPiBBemthRGV2T1MgTGludXggRGlzdHJvIHVudHVr
+IGRldmVsb3BlciBiYXNlZCB1YnVudHUsIHN0YXR1cyBiZWx1bSBzaWFwIHBh
+a2FpIHB1YmxpYwoKIyMgRGV2ZWxvcAoKMS4gQ2xvbmUgZHVsdSByZXBvbnlh
+CmBgYGJhc2gKZ2l0IGNsb25lIGh0dHBzOi8vZ2l0aHViLmNvbS9hemthZGV2
+L0F6a2FEZXZPUy5naXQKYGBgCgojIyBCdWlsZAoKYGBgYmFzaApzdWRvIHN1
+CmFwdCB1cGRhdGUgJiYgYXB0IGluc3RhbGwgZGVib290c3RyYXAgLXkKLi9i
+dWlsZC5zaCBldGMvdGVycmFmb3JtLmNvbmYKYGBgCgojIyBBcHBzIGluY2x1
+ZGUKMS4gWyBdIFZpc3VhbCBTdHVkaW8gQ29kZQoyLiBbIF0gR29vZ2xlIENo
+cm9tZQozLiBbIF0gVGVsZWdyYW0KCiMjIFBhY2thZ2UgSW5jbHVkZXMKMS4g
+W3hdIHB5dGhvbgoyLiBbIF0gbm9kZS1qcwozLiBbIF0gRmx1dHRlciBEYW4g
+RGFydAo0LiBbIF0gRG9ja2VyCjUuIFsgXSBBbmRyb2lkIFRvb2xzIGFkYiBu
+ZGsgY29tbWFuZGxpbmUgZGxsCjYuIFsgXSAKCiMgRmFxcwoKPiBROiBCZWRh
+bnlhIHNhbWEgdWJ1bnR1IGxpbnV4IGRpc3RybyBiaWFzYSBsYWlueWEgYXBh
+IGJhbmc/IGFwYSBpbmkgbGViaWggY2VwYXQ/LgoKPiBBOiBIYW1waXIgc2Ft
+YSBjdW1hIGRpIEF6a2FEZXZPUyBpbmkgb3Mga2h1c3VzIGRldmVsb3BlciBq
+YWRpIHNlbXVhIHBhY2thZ2UgeWFuZyBkaSBidXR1aGthbiBkZXZlbG9wZXIg
+dGVydXRhbWEgc2F5YSwgc3VkYWggdGVyaW5zdGFsbCArIHN1ZGFoIGRpIGF0
+dXIgc2VzdWFpIHN0eWxlIHNheWEsIGphZGkgZ2FrIHBlcmx1IHJlcG90IGJ1
+YW5nIHdha3R1IGJ1YXQgaW5zdGFsbCwgc2FtYSBzZXBlcnRpIGxpbnV4IHVi
+dW50dSBkaXN0cm8gbGFpbnlhCgo+IFE6IEtlbmFwYSBhbmRhIG1lbWJhbmd1
+biBpbmk/Cgo+IEE6IHVudHVrIG1lbXBlcm11ZGFoIG9yYW5nIHlhbmcgaW5n
+aW4gbWVuZ2d1bmFrYW4gbGludXggdW50dWsgZGV2ZWxvcGVyLCBqYWRpIHRp
+bmdnYWwgc2F0IHNldAoKIyMgQ3JlZGl0CjEuIFt1YnVudHUtaXNvLWJ1aWxk
+ZXJdKGh0dHBzOi8vZ2l0aHViLmNvbS9VYnVudHUtQ2lubmFtb24tUmVtaXgv
+aXNvLWJ1aWxkZXItZGV2ZWwp
 
-> AzkaDevOS Linux Distro untuk developer based ubuntu, status belum siap pakai public
-
-## Develop
-
-1. Clone dulu reponya
-```bash
-git clone https://github.com/azkadev/AzkaDevOS.git
-```
-
-## Build
-
-```bash
-sudo su
-apt update && apt install debootstrap -y
-./build.sh etc/terraform.conf
-```
-
-## Apps include
-1. [ ] Visual Studio Code
-2. [ ] Google Chrome
-3. [ ] Telegram
-
-## Package Includes
-1. [x] python
-2. [ ] node-js
-3. [ ] Flutter Dan Dart
-4. [ ] Docker
-5. [ ] Android Tools adb ndk commandline dll
-6. [ ] 
-
-# Faqs
-
-> Q: Bedanya sama ubuntu linux distro biasa lainya apa bang? apa ini lebih cepat?.
-
-> A: Hampir sama cuma di AzkaDevOS ini os khusus developer jadi semua package yang di butuhkan developer terutama saya, sudah terinstall + sudah di atur sesuai style saya, jadi gak perlu repot buang waktu buat install, sama seperti linux ubuntu distro lainya
-
-> Q: Kenapa anda membangun ini?
-
-> A: untuk mempermudah orang yang ingin menggunakan linux untuk developer, jadi tinggal sat set
-
-## Credit
-1. [ubuntu-iso-builder](https://github.com/Ubuntu-Cinnamon-Remix/iso-builder-devel)
+<!-- START GLOBAL CORPORATION -->
+404: Not Found
+<!-- END GLOBAL CORPORATION -->
